@@ -20,6 +20,9 @@ class ExampleInstrumentedTest {
     var activityRule: ActivityScenarioRule<MainActivity>
             = ActivityScenarioRule(MainActivity::class.java)
 
+    // calculate value of a^b (assume a and b are greater than zero)
+    // fetch the result
+    // verify the correct result is displayed
     @Test
     fun testCalculator() {
 
